@@ -56,11 +56,11 @@ const EmailSection = () => {
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
-            <Image src={GithubIcon} alt="Github Icon" />
+          <Link href="https://github.com/deathjump">
+            <Image src={GithubIcon} alt="Github Page" />
           </Link>
-          <Link href="linkedin.com">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" />
+          <Link href="https://www.linkedin.com/in/semekor-pi-bansa/">
+            <Image src={LinkedinIcon} alt="Linkedin Page" />
           </Link>
         </div>
       </div>
@@ -84,7 +84,7 @@ const EmailSection = () => {
                 id="email"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="jacob@google.com"
+                placeholder="Enter Email Address"
               />
             </div>
             <div className="mb-6">
@@ -100,7 +100,7 @@ const EmailSection = () => {
                 id="subject"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="Just saying hi"
+                placeholder="Topic of Discussion"
               />
             </div>
             <div className="mb-6">
