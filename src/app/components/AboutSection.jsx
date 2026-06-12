@@ -32,7 +32,7 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>Dont ask yet. Itll come soon. </li>
+        <li>Don&apos;t ask yet. It&apos;ll come soon. </li>
         
       </ul>
     ),
